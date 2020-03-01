@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <title>Ryan Hashier - About Me</title>
+  <!-- google fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+  <!-- Boostrap Stylesheet -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <!-- JS, Popper.js, and jQuery -->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  <!-- Our own CSS stylesheet -->
+  <link rel="stylesheet" href="assets\css\style.css" media="screen">
+
+</head>
+
+<body>
+  <!-- navbar with responsive toggler -->
+  <nav class="navbar navbar-expand-sm navbar-dark bg-dark my-nav">
+      <a href="#" class="navbar-brand"><img src="assets\images\rhLogo.png" alt="logo" height="65" width= "367"></a>
+      <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarMenu">
+        <!-- ml-auto set for right aligned menu items   -->
+        <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                  <a href="#" class="nav-link">About Me</a>
+              </li>
+              <li class="nav-item">
+                  <a href="portfolio.html" class="nav-link">Portfolio</a>
+                  <li class="nav-item">
+                    <a href="contact.html" class="nav-link">Contact</a>
+                </li>
+  
+              </li>
+          </ul>
+      </div>
+  </nav>
+  <!-- begin container -->
+  <div class="container">
+    <div class="row my-row">
+      <div class="col-1"></div>
+      <!-- area with profile picture -->
+      <div class="col-2-lg col-portrait">
+        <div class ="portrait">
+<img src="assets\images\ryanPic.jpg" alt="Ryan" height="175" width="175px">
+        </div>
+        <div class="contactInfo">
+          e: rhashier@oh.rr.com
+          <br>p: 216.640.5319
+        </div>
+      </div>
+      <!-- main area of about me text -->
+      <div class="col-6-lg col-me">
+        <div id="aboutMe-right">
+          <span class="aboutMe-title">Some words about me.</span>
+          <br>
+          <p>Hi! My name is Ryan Hashier.  Welcome to my online portfolio.  I currently reside
+            <br>in Cleveland, Ohio USA, and I am studying at Case Western Reserve University's Coding 
+            <br>Bootcamp.  My education background includes a B.A. from Baldwin-Wallace University in
+            <br>Business Management.  I have also completed the post graduate Graphic Design program
+            <br>at Cleveland State University.
+          </p>
+          <p>My professional career and education in Graphic Design always kept me close to web
+            <br>development. Especially in front end design. Whether it be helping design certain 
+            <br>elements for a website, or help styling a color palette on an email newsletter, I always
+            <br> seemed to overlap into the world of web. I quickly learned there was more involved in 
+            <br>web development than just making great looking websites.  That's how I ended up at CWRU's
+            <br>Coding Bootcamp, with the desire to learn it all.  I thank you for taking the time to view
+            <br>my portfolio of work.  Please contact me with any questions.
+          </p>
+</div>
+<!-- buttons -->
+<div id="aboutMebtns">
+  <button type="button" class="btn btn-danger"><a href="portfolio.html">Portfolio</a></button>
+  <button type="button" class="btn btn-danger"><a href="contact.html">Message</a></button>
+</div>
+      </div>
+</div>
+<!-- text footer -->
+    <div class="row">
+      <div class="col col-footer">
+        About Us   |   <a href="portfolio.html">Portfolio</a>   |   <a href="contact.html">Contact</a>
+      </div>
+    </div>
+  </div>
+    </body>
+</html>

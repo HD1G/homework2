@@ -1,0 +1,109 @@
+/* styles for all pages */
+
+/* adds border to nav bar */
+.my-nav {
+    border-bottom: 3px solid #7a9e9f;
+}
+
+/* pads nav bar logo left */
+.navbar-brand{
+padding-left: 25px;
+}
+
+/* positions Ryan image */
+.col-portrait {
+    padding-top: 37px;
+    padding-left: 100px;
+}
+
+/* contact info under profile pic */
+.contactInfo {
+    font-family: 'Roboto';
+    font-size: 12pt;
+    color: #253c41;
+}
+
+/* spacing on about me main text  */
+.col-me {
+    padding-top: 30px;
+    padding-left: 75px;
+}
+
+/* about me title */
+.aboutMe-title {
+    font-family: 'Roboto';
+    color: #253c41;
+    font-size: 16pt;
+    font-weight: bold;
+}
+
+/* styles all p tags */
+p {
+    font-family: 'Roboto';
+    color: #333;
+    font-size: 11pt;
+}
+
+/* about me section */
+.my-row {
+    background-color: #fafafa;
+    padding-bottom: 30px;
+}
+
+/* footer on all pages */
+.col-footer {
+    background-color: #4f6367;
+    height: 60px;
+    text-align: center;
+    font-family: 'Roboto';
+    color: #fcfff5;
+    padding-top: 18px;
+    width: 100%;
+}
+
+/* spacing and background portfolio */
+.portfolio-row {
+    padding-top: 20px;
+    background-color: #fafafa;
+}
+
+/* styling on Project 1 2 3 title */
+..portfolio-title {
+    font-family: 'Roboto';
+    color: #253c41;
+    font-size: 16pt;
+    font-weight: bold;
+}
+
+/* skills stack title */
+.skills-header {
+    font-weight: bold;
+    font-family: 'Roboto';
+    color: #253c41;
+    font-size: 12pt;
+}
+/* contols footer text links */
+a {
+    color: #fafafa;
+}
+
+/* hover footer text links */
+a:hover {
+    color: #b8d8d8; 
+    text-decoration: none; 
+}
+
+/* adding space */
+.col-contact {
+    height:15px;
+}
+
+/* form title */
+.contact-header {
+    font-family: 'Roboto';
+    color: #253c41;
+    font-size: 24pt;
+    font-weight: bold;
+    padding-top: 20px;
+  
+}
